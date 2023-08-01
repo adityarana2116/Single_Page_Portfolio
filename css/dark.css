@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #EA5459;
+    /* --primary-shadow-color: #141e2e; */
+    --button-bg-color: #302c27;
+    --button-hover: #EA5459;
+    --primary-shadow-color: #000000;
+    --secondary-color: #165fc5;
+    --tertiary-color: #fff;
+    --navbar-color: #0d081a;
+    --secondary-grey: #ffffff;
+    --project-card-shadow: #2c2c2c96;
+    --body-bg: #0c0c0c;
+    /* --body-bg: #16213E; */
+    --footer-color: #000001;
+    --footer-heading: #EA5459;
+    --skill-color: #ffffff;
+    --button-color: #ffffff;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, #0e1c26, #141824, #191520, #1c111a, #1d0e13, #1d0e13, #1d0e13, #1d0e13, #1c111a, #191520, #141824, #0e1c26);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+}
+
+.outline {
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid var(--primary-color);
+}
+
+hr{
+    background-color: white; 
+    height: 2px; 
+    border: 1px solid white;
+}
+
+#footer footer .connect_apps .icon i{
+    color: white;
+}
+
+#footer footer .col-1 p {
+    color: white;
+}
