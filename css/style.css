@@ -616,7 +616,7 @@ span {
     padding: 1rem 2rem;
     border-radius: 15px;
     transition: transform 0.3s ease;
-    min-width: 100px;
+    min-width: 225px;
     min-height: 50px;
 }
 
